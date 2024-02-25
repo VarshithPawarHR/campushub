@@ -6,3 +6,4 @@ This platform aims to supersede conventional communication tools, establishing a
 The primary objective is to enhance communication dynamics,
 fostering a distinct boundary between personal and professional spheres for both educators and learners (this is the main objective) .
 
+---END-----
