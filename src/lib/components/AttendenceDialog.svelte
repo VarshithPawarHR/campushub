@@ -59,18 +59,6 @@
   </form>
 </dialog>
 <style>
-  /* Basic Reset */
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Body Styles */
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #394977;
-  }
 
   /* Dialog Styles */
   dialog {

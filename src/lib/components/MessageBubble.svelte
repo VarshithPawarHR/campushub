@@ -14,7 +14,7 @@
 </script>
 
 <div
-  class={`chat text-sm ${
+  class={`chat text-sm  ${
     message.user.id == currentUser.id ? "chat-end" : "chat-start"
   }`}
 >
@@ -23,11 +23,11 @@
     alt={message.user.name}
     src={message.avatar}
   />
-  <div class="chat-header text-xs">
+  <div class="chat-header text-xs mb-1">
     @{message.user.name}
     <time class="text-xs font-thin opacity-50"
       >{message.createdAt.slice(9, message.createdAt.length - 6)}</time
     >
   </div>
-  <p class="chat-bubble">{message.content}</p>
+  <p class="chat-bubble bg-white text-black">{message.content}</p>
 </div>

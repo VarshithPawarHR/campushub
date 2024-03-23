@@ -165,11 +165,9 @@
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom right, rgba(31, 37, 68), #1a1a1a);
-
     width: 15rem;
     text-align: center;
     color: var(--secondary);
-    border-top: 2px solid rgba(139, 138, 139, 0.5);
     border-left: 0;
     border-bottom: 0;
     border-radius: 7px;
@@ -242,7 +240,6 @@
   }
 
   .bg-surface-hover-token {
-    font-family: "EB Garamond", serif;
     font-weight: 700;
     font-size: medium;
     transition:

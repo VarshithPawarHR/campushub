@@ -26,7 +26,6 @@
     display: flex;
     width: 100%;
     height: calc(100% - 80px);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .content {

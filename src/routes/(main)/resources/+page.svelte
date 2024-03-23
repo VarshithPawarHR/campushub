@@ -270,7 +270,6 @@
   }
   .card h1 {
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
     font-size: 2rem; /* Adjust the font size as needed */
     color: rgb(255, 255, 255);
   }

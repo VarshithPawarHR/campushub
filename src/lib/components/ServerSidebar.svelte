@@ -11,7 +11,7 @@
 
 <section >
   {#await servers}
-    <span>...Loading</span>
+    <span>loading...</span>
   {:then serverResponse}
   
     {#each serverResponse as server (server.id)}
@@ -59,6 +59,7 @@
     background-color: var(--primary-light);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.05); /* Scale up on hover */
+    transition: 250ms all ease-in-out;
   }
 
   img {

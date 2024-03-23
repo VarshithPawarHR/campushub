@@ -25,6 +25,7 @@
   let form: HTMLFormElement;
 
   function createServer() {
+    console.log("create",ServersTypeOptions.SUBJECT);
     if (!serverName) {
       showToast("error","server name is missing","error");
       return;

@@ -152,7 +152,7 @@
   /* Style for the resource container */
   .resource-container {
     padding: 1.5rem;
-    background: linear-gradient(to top left, #20212277, rgb(95, 95, 97));
+    background: rgb(15, 8, 40);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0.25rem;
     margin: 1.5rem;
@@ -165,7 +165,6 @@
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #080808;
   }
 
   /* Style for the file links */

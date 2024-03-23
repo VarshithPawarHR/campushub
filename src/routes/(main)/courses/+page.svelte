@@ -12,8 +12,8 @@
     {:then courses}
       {#each courses as course (course.name)}
         <a
-          class="py-6 px-8 flex items-center m-auto rounded-tl-0 rounded-br-[0.0625rem] rounded-tr-[2.4375rem] rounded-bl-[2.375rem] bg-[#3d414c]"
-          style="width: 80%; height: 5.7rem;   margin-bottom: 1rem;"
+          class="py-6 px-8 flex items-center m-auto rounded-tl-0 rounded-br-[0.0625rem] rounded-tr-[2.4375rem] rounded-bl-[2.375rem] bg-[#3d414c] mb-4 text-lg font-semibold capitalize"
+          style="width: 80%; height: 5.7rem;"
           on:click={() => {
             courseSelected.set(course);
           }}
