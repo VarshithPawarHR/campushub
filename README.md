@@ -52,6 +52,8 @@ Contributions are welcome! Please follow the Contribution Guidelines.
 # Pocketbase DB used link:
 https://drive.google.com/drive/folders/1sZrKdgszCPWxVy-za1_-LF2uPobgnGHY?usp=sharing
 
+# Placed 1st in HACKXPO
+
 
 
 
